@@ -1,0 +1,2418 @@
+2023-05-22 03:36:40 PM INFO Log Started
+2023-05-22 03:36:40 PM INFO 
+Welcome to the ec4d EV ABM Simulator v 0.3.5-beta.
+2023-05-22 03:36:40 PM INFO 
+Today's date is: 2023-05-22 15:36:40.435215.
+2023-05-22 03:36:40 PM INFO 
+Building model environment from input parameters...
+2023-05-22 03:36:40 PM INFO 
+Available routes: ['A-B', 'B-C', 'C-D', 'D-E', 'D-B', 'E-B', 'E-F', 'D-F', 'F-A']
+2023-05-22 03:36:40 PM INFO 
+Model environment built successfully.
+2023-05-22 03:36:40 PM INFO 
+Charge point counts: {'CS_A-B_1': 3, 'CS_A-B_2': 6, 'CS_B-C_1': 4, 'CS_B-C_2': 6, 'CS_C-D_1': 4, 'CS_C-D_2': 1, 'CS_C-D_3': 6, 'CS_D-E_1': 3, 'CS_D-B_1': 3, 'CS_E-B_1': 3, 'CS_E-F_1': 4, 'CS_D-F_1': 6, 'CS_F-A_1': 3, 'CS_F-A_2': 4}
+2023-05-22 03:36:40 PM INFO CS 0, initialized.
+2023-05-22 03:36:40 PM INFO CS 1, initialized.
+2023-05-22 03:36:40 PM INFO CS 2, initialized.
+2023-05-22 03:36:40 PM INFO CS 3, initialized.
+2023-05-22 03:36:40 PM INFO CS 4, initialized.
+2023-05-22 03:36:40 PM INFO CS 5, initialized.
+2023-05-22 03:36:40 PM INFO CS 6, initialized.
+2023-05-22 03:36:40 PM INFO CS 7, initialized.
+2023-05-22 03:36:40 PM INFO CS 8, initialized.
+2023-05-22 03:36:40 PM INFO CS 9, initialized.
+2023-05-22 03:36:40 PM INFO CS 10, initialized.
+2023-05-22 03:36:40 PM INFO CS 11, initialized.
+2023-05-22 03:36:40 PM INFO CS 12, initialized.
+2023-05-22 03:36:40 PM INFO CS 13, initialized.
+2023-05-22 03:36:40 PM INFO 
+
+2023-05-22 03:36:40 PM INFO 
+Agents Created
+2023-05-22 03:36:40 PM INFO 
+Updating agents with particulars - route (EV and CS), destination (EV), charge point count (CS), grid locations ...
+2023-05-22 03:36:40 PM INFO 
+ChargeStation coordinates set.
+2023-05-22 03:36:40 PM INFO 
+Charge stations, positions and associated routes:
+
+2023-05-22 03:36:40 PM INFO 
+EVs - details, positions and associated routes:
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 14, max_battery: 55.00, energy consumption rate: 0.5342726069326044, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 11,  soc usage threshold: 27.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (180, 43), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: B, route: A-B.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 15, max_battery: 54.00, energy consumption rate: 0.5199682526663901, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 12,  soc usage threshold: 27.0, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (264, 33), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: A, route: F-A.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 16, max_battery: 55.00, energy consumption rate: 0.4835135484927172, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 11,  soc usage threshold: 27.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (285, 207), destination position: (270, 109), Distance goal: 99.14131328563285.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): E, source: E, destination: F, route: E-F.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 17, max_battery: 67.00, energy consumption rate: 0.21719266276392907, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 10,  soc usage threshold: 33.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (100, 100), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: C, route: B-C.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 18, max_battery: 59.00, energy consumption rate: 0.6469579743081368, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 13,  soc usage threshold: 29.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (195, 134), destination position: (180, 43), Distance goal: 92.22797840135064.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): D, source: D, destination: B, route: D-B.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 19, max_battery: 69.00, energy consumption rate: 0.4549257803476661, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 13,  soc usage threshold: 34.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (264, 33), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: A, route: F-A.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 20, max_battery: 65.00, energy consumption rate: 0.43048233034521083, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 10,  soc usage threshold: 32.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (264, 33), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: A, route: F-A.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 21, max_battery: 53.00, energy consumption rate: 0.4209302019218621, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 13,  soc usage threshold: 26.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (100, 100), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: C, route: B-C.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 22, max_battery: 43.00, energy consumption rate: 0.41462201066732707, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 13,  soc usage threshold: 21.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (264, 33), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: A, route: F-A.
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 23, max_battery: 47.00, energy consumption rate: 0.5469754357602095, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 14,  soc usage threshold: 23.5, range anxiety 0.5.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (285, 207), destination position: (270, 109), Distance goal: 99.14131328563285.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): E, source: E, destination: F, route: E-F.
+2023-05-22 03:36:40 PM INFO 
+
+2023-05-22 03:36:40 PM INFO The location agents in this model are: 
+
+2023-05-22 03:36:40 PM INFO Location A, Position: (264, 33)
+2023-05-22 03:36:40 PM INFO Location B, Position: (180, 43)
+2023-05-22 03:36:40 PM INFO Location C, Position: (100, 100)
+2023-05-22 03:36:40 PM INFO Location D, Position: (195, 134)
+2023-05-22 03:36:40 PM INFO Location E, Position: (285, 207)
+2023-05-22 03:36:40 PM INFO Location F, Position: (270, 109)
+2023-05-22 03:36:40 PM INFO 
+Agents Updated
+2023-05-22 03:36:40 PM INFO 
+Model initialised. 10 EVs and 14 Charging Points. Simulation will run for 72 ticks or 3.0 day(s).
+
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 1.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 2.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 3.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 4.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 5.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 6.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 7.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 8.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 9.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 10.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 11.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 started travelling at 10 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 20.00, SOC: 93.5%, Battery: 62.66, Location: (163, 54), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 started travelling at 10 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 20.00, SOC: 86.8%, Battery: 56.39, Location: (268, 89), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 12.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 started travelling at 11 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 20.00, SOC: 80.6%, Battery: 44.31, Location: (244, 35), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 started travelling at 11 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 20.00, SOC: 82.4%, Battery: 45.33, Location: (281, 187), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 99.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 40.00, SOC: 87.0%, Battery: 58.31, Location: (146, 65), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 40.00, SOC: 73.5%, Battery: 47.78, Location: (266, 69), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 56.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 13.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 40.00, SOC: 61.1%, Battery: 33.63, Location: (224, 37), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 64.50.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 started travelling at 12 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 20.00, SOC: 80.7%, Battery: 43.60, Location: (268, 89), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 40.00, SOC: 64.8%, Battery: 35.66, Location: (278, 167), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 78.77.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 60.00, SOC: 80.5%, Battery: 53.97, Location: (130, 77), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 57.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 60.00, SOC: 60.3%, Battery: 39.17, Location: (264, 49), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 36.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 14.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 60.00, SOC: 41.7%, Battery: 22.94, Location: (204, 39), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 44.41.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 14 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 41.72%. Battery: 22.94 kwh.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 40.00, SOC: 61.5%, Battery: 33.20, Location: (266, 69), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 56.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 60.00, SOC: 47.3%, Battery: 25.99, Location: (275, 147), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 58.55.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 16 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 47.25%. Battery: 25.99 kwh.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 80.00, SOC: 74.1%, Battery: 49.62, Location: (114, 89), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 37.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 started travelling at 13 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 20.00, SOC: 78.1%, Battery: 46.06, Location: (191, 114), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 92.23, Distance covered in timestep: 20.0, New distance goal: 92.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 started travelling at 13 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 20.00, SOC: 86.8%, Battery: 59.90, Location: (268, 89), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 80.00, SOC: 47.0%, Battery: 30.56, Location: (264, 29), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 16.00.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 20 has travelled: 80.0 km and is now running out of power. State: Travel_low. SOC: 47.02%. Battery: 30.56 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 started travelling at 13 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 20.00, SOC: 84.1%, Battery: 44.58, Location: (163, 54), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 started travelling at 13 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 20.00, SOC: 80.7%, Battery: 34.71, Location: (268, 89), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 narrowly completed its journey to Location A. State: Idle. This EV has travelled: 80.0 miles. SOC: 47.02%, Battery: 30.56 kWh. Range anxiety: 0.50.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): A
+2023-05-22 03:36:40 PM INFO EV 20 has been removed from grid on arrival at A. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 15.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel_low, Odometer: 80.00, SOC: 22.3%, Battery: 12.26, Location: (184, 42), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 24.33.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 is still travelling, but is low on charge and is seeking a charge station. SOC: 22.29%. Current charge: 12.26 kWh.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 60.00, SOC: 42.2%, Battery: 22.80, Location: (264, 49), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 36.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 15 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 42.23%. Battery: 22.80 kwh.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel_low, Odometer: 80.00, SOC: 29.7%, Battery: 16.32, Location: (272, 127), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 38.33.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is still travelling, but is low on charge and is seeking a charge station. SOC: 29.67%. Current charge: 16.32 kWh.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 100.00, SOC: 67.6%, Battery: 45.28, Location: (98, 101), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 19.999999999999996, New distance goal: 17.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 40.00, SOC: 56.1%, Battery: 33.12, Location: (187, 94), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 92.23, Distance covered in timestep: 20.0, New distance goal: 71.85.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 40.00, SOC: 73.6%, Battery: 50.80, Location: (266, 69), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 56.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 40.00, SOC: 68.2%, Battery: 36.16, Location: (146, 65), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 40.00, SOC: 61.4%, Battery: 26.42, Location: (266, 69), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 56.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 started travelling at 14 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 20.00, SOC: 76.7%, Battery: 36.06, Location: (281, 187), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 99.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 has completed its journey to Location C. State: Idle. This EV has travelled: 100.0 miles. SOC: 67.58%, Battery: 45.28 kWh. Range anxiety: 0.50.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): C
+2023-05-22 03:36:40 PM INFO EV 17 has been removed from grid on arrival at C. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 16.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel_low, Odometer: 100.00, SOC: 2.9%, Battery: 1.57, Location: (164, 46), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.000000000000004, New distance goal: 4.12.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 is still travelling, but is low on charge and is seeking a charge station. SOC: 2.86%. Current charge: 1.57 kWh.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel_low, Odometer: 80.00, SOC: 23.0%, Battery: 12.40, Location: (264, 29), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 16.00.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is still travelling, but is low on charge and is seeking a charge station. SOC: 22.97%. Current charge: 12.40 kWh.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel_low, Odometer: 100.00, SOC: 12.1%, Battery: 6.65, Location: (269, 107), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 19.999999999999996, New distance goal: 18.11.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is still travelling, but is low on charge and is seeking a charge station. SOC: 12.09%. Current charge: 6.65 kWh.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 60.00, SOC: 34.2%, Battery: 20.18, Location: (184, 74), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 92.23, Distance covered in timestep: 20.0, New distance goal: 51.48.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 18 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 34.21%. Battery: 20.18 kwh.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 60.00, SOC: 60.4%, Battery: 41.70, Location: (264, 49), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 36.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 60.00, SOC: 52.3%, Battery: 27.74, Location: (130, 77), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 57.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 60.00, SOC: 42.1%, Battery: 18.12, Location: (264, 49), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 36.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 22 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 42.15%. Battery: 18.12 kwh.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 40.00, SOC: 53.4%, Battery: 25.12, Location: (278, 167), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 78.77.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 narrowly completed its journey to Location B. State: Idle. This EV has travelled: 100.0 miles. SOC: 2.86%, Battery: 1.57 kWh. Range anxiety: 0.49.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): B
+2023-05-22 03:36:40 PM INFO EV 14 has been removed from grid on arrival at B. Current state: Idle
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 narrowly completed its journey to Location A. State: Idle. This EV has travelled: 80.0 miles. SOC: 22.97%, Battery: 12.40 kWh. Range anxiety: 0.49.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): A
+2023-05-22 03:36:40 PM INFO EV 15 has been removed from grid on arrival at A. Current state: Idle
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 narrowly completed its journey to Location F. State: Idle. This EV has travelled: 100.0 miles. SOC: 12.09%, Battery: 6.65 kWh. Range anxiety: 0.50.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): F
+2023-05-22 03:36:40 PM INFO EV 16 has been removed from grid on arrival at F. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 17.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel_low, Odometer: 80.00, SOC: 12.3%, Battery: 7.24, Location: (181, 54), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 92.23, Distance covered in timestep: 20.0, New distance goal: 31.26.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is still travelling, but is low on charge and is seeking a charge station. SOC: 12.28%. Current charge: 7.24 kWh.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 80.00, SOC: 47.3%, Battery: 32.61, Location: (264, 29), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 16.00.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 19 has travelled: 80.0 km and is now running out of power. State: Travel_low. SOC: 47.25%. Battery: 32.61 kwh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 80.00, SOC: 36.5%, Battery: 19.33, Location: (114, 89), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 37.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 21 has travelled: 80.0 km and is now running out of power. State: Travel_low. SOC: 36.46%. Battery: 19.33 kwh.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel_low, Odometer: 80.00, SOC: 22.9%, Battery: 9.83, Location: (264, 29), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 16.00.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is still travelling, but is low on charge and is seeking a charge station. SOC: 22.86%. Current charge: 9.83 kWh.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 60.00, SOC: 30.2%, Battery: 14.18, Location: (275, 147), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 58.55.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 23 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 30.17%. Battery: 14.18 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 narrowly completed its journey to Location A. State: Idle. This EV has travelled: 80.0 miles. SOC: 47.25%, Battery: 32.61 kWh. Range anxiety: 0.49.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): A
+2023-05-22 03:36:40 PM INFO EV 19 has been removed from grid on arrival at A. Current state: Idle
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 narrowly completed its journey to Location A. State: Idle. This EV has travelled: 80.0 miles. SOC: 22.86%, Battery: 9.83 kWh. Range anxiety: 0.48.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): A
+2023-05-22 03:36:40 PM INFO EV 22 has been removed from grid on arrival at A. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 18.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is out of charge and can no longer travel. State: Battery_dead. Current charge: 7.243362055349053 kWh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel_low, Odometer: 100.00, SOC: 20.6%, Battery: 10.91, Location: (98, 101), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 19.999999999999996, New distance goal: 17.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is still travelling, but is low on charge and is seeking a charge station. SOC: 20.58%. Current charge: 10.91 kWh.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel_low, Odometer: 80.00, SOC: 6.9%, Battery: 3.24, Location: (272, 127), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 99.14, Distance covered in timestep: 20.0, New distance goal: 38.33.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is still travelling, but is low on charge and is seeking a charge station. SOC: 6.90%. Current charge: 3.24 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 narrowly completed its journey to Location C. State: Idle. This EV has travelled: 100.0 miles. SOC: 20.58%, Battery: 10.91 kWh. Range anxiety: 0.49.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): C
+2023-05-22 03:36:40 PM INFO EV 21 has been removed from grid on arrival at C. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 19.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is out of charge and can no longer travel. State: Battery_dead. Current charge: 3.2419651391832396 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 20.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 21.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 22.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 23.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 24.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 Battery level at end of day: 1.5727393067395603
+2023-05-22 03:36:40 PM INFO EV 15 Battery level at end of day: 12.402539786688799
+2023-05-22 03:36:40 PM INFO EV 16 Battery level at end of day: 6.648645150728283
+2023-05-22 03:36:40 PM INFO EV 17 Battery level at end of day: 45.28073372360709
+2023-05-22 03:36:40 PM INFO EV 18 Battery level at end of day: 7.243362055349053
+2023-05-22 03:36:40 PM INFO EV 19 Battery level at end of day: 32.60593757218672
+2023-05-22 03:36:40 PM INFO EV 20 Battery level at end of day: 30.56141357238312
+2023-05-22 03:36:40 PM INFO EV 21 Battery level at end of day: 10.906979807813801
+2023-05-22 03:36:40 PM INFO EV 22 Battery level at end of day: 9.830239146613838
+2023-05-22 03:36:40 PM INFO EV 23 Battery level at end of day: 3.2419651391832396
+2023-05-22 03:36:40 PM INFO 
+Current day: 1.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 25.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 has been transported to Location B. Coord: (180, 43). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 18 has been removed from the grid, recharged to 59 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.6157665047176768.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 has been transported to Location F. Coord: (270, 109). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 23 has been removed from the grid, recharged to 47 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5530556689965128.
+2023-05-22 03:36:40 PM INFO 
+EV 14, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 14, New Route: B-A
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 14, max_battery: 55.00, energy consumption rate: 0.5324443956413432, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 38,  soc usage threshold: 27.5, range anxiety 0.4945612474875878.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (264, 33), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: A, route: B-A.
+2023-05-22 03:36:40 PM INFO 
+EV 15, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 15, New Route: A-B
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 15, max_battery: 54.00, energy consumption rate: 0.47580394293596234, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 34,  soc usage threshold: 27.0, range anxiety 0.49169014149946577.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (180, 43), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: B, route: A-B.
+2023-05-22 03:36:40 PM INFO 
+EV 16, Location: F, Route possibilities: ['F-D', 'F-A']
+2023-05-22 03:36:40 PM INFO EV 16, New Route: F-A
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 16, max_battery: 55.00, energy consumption rate: 0.33989517714482353, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 38,  soc usage threshold: 27.5, range anxiety 0.4992057803351913.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (264, 33), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: A, route: F-A.
+2023-05-22 03:36:40 PM INFO 
+EV 17, Location: C, Route possibilities: ['C-B', 'C-D']
+2023-05-22 03:36:40 PM INFO EV 17, New Route: C-D
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 17, max_battery: 67.00, energy consumption rate: 0.5754851630508844, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 34,  soc usage threshold: 33.5, range anxiety 0.4983020772565854.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (100, 100), destination position: (195, 134), Distance goal: 100.90094152187085.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): C, source: C, destination: D, route: C-D.
+2023-05-22 03:36:40 PM INFO 
+EV 18, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 18, New Route: B-C
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 18, max_battery: 59.00, energy consumption rate: 0.568350458709942, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 35,  soc usage threshold: 29.5, range anxiety 0.6157665047176768.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (100, 100), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: C, route: B-C.
+2023-05-22 03:36:40 PM INFO 
+EV 19, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 19, New Route: A-B
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 19, max_battery: 69.00, energy consumption rate: 0.37887113699460506, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 34,  soc usage threshold: 34.5, range anxiety 0.48757226261332254.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (180, 43), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: B, route: A-B.
+2023-05-22 03:36:40 PM INFO 
+EV 20, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 20, New Route: A-F
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 20, max_battery: 65.00, energy consumption rate: 0.4399413638831097, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 38,  soc usage threshold: 32.5, range anxiety 0.4972073513011164.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (270, 109), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: F, route: A-F.
+2023-05-22 03:36:40 PM INFO 
+EV 21, Location: C, Route possibilities: ['C-B', 'C-D']
+2023-05-22 03:36:40 PM INFO EV 21, New Route: C-B
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 21, max_battery: 53.00, energy consumption rate: 0.6263101181626552, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 34,  soc usage threshold: 26.5, range anxiety 0.48701693887747927.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (100, 100), destination position: (180, 43), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): C, source: C, destination: B, route: C-B.
+2023-05-22 03:36:40 PM INFO 
+EV 22, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 22, New Route: A-B
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 22, max_battery: 43.00, energy consumption rate: 0.42680372779896675, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 38,  soc usage threshold: 21.5, range anxiety 0.48076106161908166.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (180, 43), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: B, route: A-B.
+2023-05-22 03:36:40 PM INFO 
+EV 23, Location: F, Route possibilities: ['F-D', 'F-A']
+2023-05-22 03:36:40 PM INFO EV 23, New Route: F-D
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 23, max_battery: 47.00, energy consumption rate: 0.5990143183249237, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 34,  soc usage threshold: 23.5, range anxiety 0.5530556689965128.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (195, 134), Distance goal: 79.05694150420949.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: D, route: F-D.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 26.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 27.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 28.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 29.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 30.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 31.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 32.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 33.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 34.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 35.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 started travelling at 34 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 20.00, SOC: 5.3%, Battery: 2.89, Location: (244, 35), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 15 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 5.35%. Battery: 2.89 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 started travelling at 34 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 20.00, SOC: 50.4%, Battery: 33.77, Location: (118, 106), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 20.0, New distance goal: 100.90.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 started travelling at 34 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 20.00, SOC: 36.3%, Battery: 25.03, Location: (244, 35), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 19 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 36.27%. Battery: 25.03 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 started travelling at 34 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 20.00, SOC: 0.0%, Battery: 0.00, Location: (116, 88), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 21 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 0.00%. Battery: 0.00 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 started travelling at 34 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 20.00, SOC: 74.5%, Battery: 35.02, Location: (251, 115), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 79.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 has arrived at Charge Station CS_B-C_2.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 has joined the queue CS_B-C_2. Current CS occupancy: 1
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 36.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO EV 21 is in queue at CS CS_B-C_2. EV state: In_queue.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 dequeued at CS_B-C_2 at cp_1 and is in state: Charge. Charging started
+2023-05-22 03:36:40 PM INFO EV 21 has been assigned to cp_1 at CS_B-C_2. State: Charge. Charge rate: 22 kW.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is out of charge and can no longer travel. State: Battery_dead. Current charge: 2.8864609279695514 kWh.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 40.00, SOC: 33.2%, Battery: 22.26, Location: (136, 112), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 19.999999999999996, New distance goal: 81.93.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 17 has travelled: 40.0 km and is now running out of power. State: Travel_low. SOC: 33.23%. Battery: 22.26 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 started travelling at 35 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 20.00, SOC: 80.7%, Battery: 47.63, Location: (163, 54), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel_low, Odometer: 40.00, SOC: 25.3%, Battery: 17.45, Location: (224, 37), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 64.50.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is still travelling, but is low on charge and is seeking a charge station. SOC: 25.29%. Current charge: 17.45 kWh.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 40.00, SOC: 49.0%, Battery: 23.04, Location: (232, 121), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 59.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 23 has travelled: 40.0 km and is now running out of power. State: Travel_low. SOC: 49.02%. Battery: 23.04 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 at CS CS_B-C_2 at cp_1 is in state: Charge. SOC: 0.00%, Battery: 0.00 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 37.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel_low, Odometer: 60.00, SOC: 16.0%, Battery: 10.75, Location: (154, 118), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 20.0, New distance goal: 62.97.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is still travelling, but is low on charge and is seeking a charge station. SOC: 16.05%. Current charge: 10.75 kWh.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 40.00, SOC: 61.5%, Battery: 36.27, Location: (146, 65), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel_low, Odometer: 60.00, SOC: 14.3%, Battery: 9.87, Location: (204, 39), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 44.41.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is still travelling, but is low on charge and is seeking a charge station. SOC: 14.31%. Current charge: 9.87 kWh.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel_low, Odometer: 60.00, SOC: 23.5%, Battery: 11.06, Location: (213, 127), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 39.22.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is still travelling, but is low on charge and is seeking a charge station. SOC: 23.53%. Current charge: 11.06 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 at CS CS_B-C_2 at cp_1 is in state: Charge. SOC: 41.51%, Battery: 22.00 kWh.
+2023-05-22 03:36:40 PM INFO EV 17 has arrived at Charge Station CS_C-D_2.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 has joined the queue CS_C-D_2. Current CS occupancy: 1
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 38.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO EV 17 is in queue at CS CS_C-D_2. EV state: In_queue.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 dequeued at CS_C-D_2 at cp_1 and is in state: Charge. Charging started
+2023-05-22 03:36:40 PM INFO EV 17 has been assigned to cp_1 at CS_C-D_2. State: Charge. Charge rate: 320 kW.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 60.00, SOC: 42.2%, Battery: 24.90, Location: (130, 77), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 57.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 18 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 42.20%. Battery: 24.90 kwh.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel_low, Odometer: 80.00, SOC: 3.3%, Battery: 2.30, Location: (184, 42), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 24.33.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is still travelling, but is low on charge and is seeking a charge station. SOC: 3.33%. Current charge: 2.30 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is out of charge and can no longer travel. State: Battery_dead. Current charge: 11.059140900504575 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 has finished charging. EV State: Travel. SOC: 83.01886792452831%, Current charge: 44.00 kWh.
+2023-05-22 03:36:40 PM INFO EV 21 at CS CS_B-C_2 at cp_1 has finished charging. EV departed.
+2023-05-22 03:36:40 PM INFO CP is now free to use.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 at CS CS_C-D_2 at cp_1 is in state: Charge. SOC: 16.05%, Battery: 10.75 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 39.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 started travelling at 38 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 20.00, SOC: 0.0%, Battery: 0.00, Location: (199, 40), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 14 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 0.00%. Battery: 0.00 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 started travelling at 38 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 20.00, SOC: 0.0%, Battery: 0.00, Location: (268, 89), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 16 has travelled: 19.999999999999996 km and is now running out of power. State: Travel_low. SOC: 0.00%. Battery: 0.00 kwh.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel_low, Odometer: 80.00, SOC: 22.9%, Battery: 13.53, Location: (114, 89), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 37.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is still travelling, but is low on charge and is seeking a charge station. SOC: 22.94%. Current charge: 13.53 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is out of charge and can no longer travel. State: Battery_dead. Current charge: 2.296246612618315 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 started travelling at 38 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 20.00, SOC: 33.5%, Battery: 21.76, Location: (265, 52), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 20 has travelled: 19.999999999999996 km and is now running out of power. State: Travel_low. SOC: 33.48%. Battery: 21.76 kwh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 40.00, SOC: 59.4%, Battery: 31.47, Location: (132, 76), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 started travelling at 38 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 20.00, SOC: 3.0%, Battery: 1.29, Location: (244, 35), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 22 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 3.01%. Battery: 1.29 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 has finished charging. EV State: Travel. SOC: 100.0%, Current charge: 67.00 kWh.
+2023-05-22 03:36:40 PM INFO EV 17 at CS CS_C-D_2 at cp_1 has finished charging. EV departed.
+2023-05-22 03:36:40 PM INFO CP is now free to use.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 40.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 is out of charge and can no longer travel. State: Battery_dead. Current charge: 0 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is out of charge and can no longer travel. State: Battery_dead. Current charge: 0 kWh.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 80.00, SOC: 82.8%, Battery: 55.49, Location: (172, 125), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 20.0, New distance goal: 44.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel_low, Odometer: 100.00, SOC: 3.7%, Battery: 2.16, Location: (98, 101), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 19.999999999999996, New distance goal: 17.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is still travelling, but is low on charge and is seeking a charge station. SOC: 3.67%. Current charge: 2.16 kWh.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel_low, Odometer: 40.00, SOC: 19.9%, Battery: 12.96, Location: (266, 71), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 57.22.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is still travelling, but is low on charge and is seeking a charge station. SOC: 19.94%. Current charge: 12.96 kWh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 60.00, SOC: 35.8%, Battery: 18.95, Location: (148, 64), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 58.25.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 21 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 35.75%. Battery: 18.95 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is out of charge and can no longer travel. State: Battery_dead. Current charge: 1.2941645906345034 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 narrowly completed its journey to Location C. State: Idle. This EV has travelled: 100.0 miles. SOC: 3.67%, Battery: 2.16 kWh. Range anxiety: 0.59.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): C
+2023-05-22 03:36:40 PM INFO EV 18 has been removed from grid on arrival at C. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 41.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 100.00, SOC: 65.6%, Battery: 43.98, Location: (190, 132), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 20.0, New distance goal: 24.70.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel_low, Odometer: 60.00, SOC: 6.4%, Battery: 4.16, Location: (268, 90), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 38.21.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is still travelling, but is low on charge and is seeking a charge station. SOC: 6.41%. Current charge: 4.16 kWh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel_low, Odometer: 80.00, SOC: 12.1%, Battery: 6.42, Location: (164, 53), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 38.28.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is still travelling, but is low on charge and is seeking a charge station. SOC: 12.12%. Current charge: 6.42 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 42.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 120.00, SOC: 48.5%, Battery: 32.47, Location: (208, 139), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 100.90, Distance covered in timestep: 20.0, New distance goal: 5.39.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 17 has travelled: 120.0 km and is now running out of power. State: Travel_low. SOC: 48.46%. Battery: 32.47 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is out of charge and can no longer travel. State: Battery_dead. Current charge: 4.164931739396536 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is out of charge and can no longer travel. State: Battery_dead. Current charge: 6.421392910240684 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 narrowly completed its journey to Location D. State: Idle. This EV has travelled: 120.0 miles. SOC: 48.46%, Battery: 32.47 kWh. Range anxiety: 0.50.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): D
+2023-05-22 03:36:40 PM INFO EV 17 has been removed from grid on arrival at D. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 43.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 44.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 45.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 46.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 47.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 48.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 Battery level at end of day: 0
+2023-05-22 03:36:40 PM INFO EV 15 Battery level at end of day: 2.8864609279695514
+2023-05-22 03:36:40 PM INFO EV 16 Battery level at end of day: 0
+2023-05-22 03:36:40 PM INFO EV 17 Battery level at end of day: 32.47089021694693
+2023-05-22 03:36:40 PM INFO EV 18 Battery level at end of day: 2.1649541290057925
+2023-05-22 03:36:40 PM INFO EV 19 Battery level at end of day: 2.296246612618315
+2023-05-22 03:36:40 PM INFO EV 20 Battery level at end of day: 4.164931739396536
+2023-05-22 03:36:40 PM INFO EV 21 Battery level at end of day: 6.421392910240684
+2023-05-22 03:36:40 PM INFO EV 22 Battery level at end of day: 1.2941645906345034
+2023-05-22 03:36:40 PM INFO EV 23 Battery level at end of day: 11.059140900504575
+2023-05-22 03:36:40 PM INFO 
+Current day: 2.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 49.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 has been transported to Location A. Coord: (264, 33). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 14 has been removed from the grid, recharged to 55 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5704838492823834.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 has been transported to Location B. Coord: (180, 43). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 15 has been removed from the grid, recharged to 54 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.4991220691775229.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 has been transported to Location A. Coord: (264, 33). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 16 has been removed from the grid, recharged to 55 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5655723693612987.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 has been transported to Location B. Coord: (180, 43). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 19 has been removed from the grid, recharged to 69 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5329643835755677.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 has been transported to Location F. Coord: (270, 109). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 20 has been removed from the grid, recharged to 65 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5876908787960771.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 has been transported to Location B. Coord: (180, 43). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 21 has been removed from the grid, recharged to 53 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.6381917087317187.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 has been transported to Location B. Coord: (180, 43). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 22 has been removed from the grid, recharged to 43 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.5369998386397953.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 has been transported to Location D. Coord: (195, 134). State: Idle.
+2023-05-22 03:36:40 PM INFO 
+EV 23 has been removed from the grid, recharged to 47 by emergency services and is now in state: Idle. Range anxiety has increased to: 0.6061113379930256.
+2023-05-22 03:36:40 PM INFO 
+EV 14, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 14, New Route: A-F
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 14, max_battery: 55.00, energy consumption rate: 0.6126517343841522, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 61,  soc usage threshold: 27.5, range anxiety 0.5704838492823834.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (270, 109), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: F, route: A-F.
+2023-05-22 03:36:40 PM INFO 
+EV 15, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 15, New Route: B-A
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 15, max_battery: 54.00, energy consumption rate: 0.5228091670239798, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 60,  soc usage threshold: 27.0, range anxiety 0.4991220691775229.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (264, 33), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: A, route: B-A.
+2023-05-22 03:36:40 PM INFO 
+EV 16, Location: A, Route possibilities: ['A-B', 'A-F']
+2023-05-22 03:36:40 PM INFO EV 16, New Route: A-F
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 16, max_battery: 55.00, energy consumption rate: 0.30405380388520986, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 60,  soc usage threshold: 27.5, range anxiety 0.5655723693612987.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (264, 33), destination position: (270, 109), Distance goal: 76.23647421018367.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): A, source: A, destination: F, route: A-F.
+2023-05-22 03:36:40 PM INFO 
+EV 17, Location: D, Route possibilities: ['D-C', 'D-E', 'D-F', 'D-B']
+2023-05-22 03:36:40 PM INFO EV 17, New Route: D-F
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 17, max_battery: 67.00, energy consumption rate: 0.5424781556461792, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 59,  soc usage threshold: 33.5, range anxiety 0.49660415451317075.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (195, 134), destination position: (270, 109), Distance goal: 79.05694150420949.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): D, source: D, destination: F, route: D-F.
+2023-05-22 03:36:40 PM INFO 
+EV 18, Location: C, Route possibilities: ['C-B', 'C-D']
+2023-05-22 03:36:40 PM INFO EV 18, New Route: C-B
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 18, max_battery: 59.00, energy consumption rate: 0.5912694477350332, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 62,  soc usage threshold: 29.5, range anxiety 0.5889717981543724.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (100, 100), destination position: (180, 43), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): C, source: C, destination: B, route: C-B.
+2023-05-22 03:36:40 PM INFO 
+EV 19, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 19, New Route: B-C
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 19, max_battery: 69.00, energy consumption rate: 0.27563856692537425, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 62,  soc usage threshold: 34.5, range anxiety 0.5329643835755677.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (100, 100), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: C, route: B-C.
+2023-05-22 03:36:40 PM INFO 
+EV 20, Location: F, Route possibilities: ['F-D', 'F-A']
+2023-05-22 03:36:40 PM INFO EV 20, New Route: F-D
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 20, max_battery: 65.00, energy consumption rate: 0.4810590411050498, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 61,  soc usage threshold: 32.5, range anxiety 0.5876908787960771.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (270, 109), destination position: (195, 134), Distance goal: 79.05694150420949.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): F, source: F, destination: D, route: F-D.
+2023-05-22 03:36:40 PM INFO 
+EV 21, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 21, New Route: B-C
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 21, max_battery: 53.00, energy consumption rate: 0.5343804493261959, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 59,  soc usage threshold: 26.5, range anxiety 0.6381917087317187.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (100, 100), Distance goal: 98.22932352408826.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: C, route: B-C.
+2023-05-22 03:36:40 PM INFO 
+EV 22, Location: B, Route possibilities: ['B-A', 'B-C']
+2023-05-22 03:36:40 PM INFO EV 22, New Route: B-A
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 22, max_battery: 43.00, energy consumption rate: 0.44756419780220097, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 60,  soc usage threshold: 21.5, range anxiety 0.5369998386397953.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (180, 43), destination position: (264, 33), Distance goal: 84.5931439302264.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): B, source: B, destination: A, route: B-A.
+2023-05-22 03:36:40 PM INFO 
+EV 23, Location: D, Route possibilities: ['D-C', 'D-E', 'D-F', 'D-B']
+2023-05-22 03:36:40 PM INFO EV 23, New Route: D-E
+2023-05-22 03:36:40 PM INFO 
+EV info: ID: 23, max_battery: 47.00, energy consumption rate: 0.4801745123375378, speed: 20, State: Idle.
+2023-05-22 03:36:40 PM INFO EV info (Cont'd): Start time: 58,  soc usage threshold: 23.5, range anxiety 0.6061113379930256.
+2023-05-22 03:36:40 PM INFO EV Grid info: current position: (195, 134), destination position: (285, 207), Distance goal: 115.88356225108029.
+2023-05-22 03:36:40 PM INFO Location info: current location (LSM): D, source: D, destination: E, route: D-E.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 50.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 51.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 52.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 53.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 54.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 55.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 56.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 57.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 58.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 59.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 started travelling at 58 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 20.00, SOC: 79.6%, Battery: 37.40, Location: (210, 146), Destination: E)
+2023-05-22 03:36:40 PM INFO Total distance: 115.88, Distance covered in timestep: 20.0, New distance goal: 115.88.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 60.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 started travelling at 59 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel, Odometer: 20.00, SOC: 32.3%, Battery: 21.62, Location: (213, 127), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 79.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 17 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 32.27%. Battery: 21.62 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 started travelling at 59 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 20.00, SOC: 79.8%, Battery: 42.31, Location: (163, 54), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 40.00, SOC: 59.1%, Battery: 27.79, Location: (225, 158), Destination: E)
+2023-05-22 03:36:40 PM INFO Total distance: 115.88, Distance covered in timestep: 20.0, New distance goal: 96.67.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 61.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 started travelling at 60 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 20.00, SOC: 80.6%, Battery: 43.54, Location: (199, 40), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 started travelling at 60 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 20.00, SOC: 88.9%, Battery: 48.92, Location: (265, 52), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is travelling. State: Travel_low, Odometer: 40.00, SOC: 16.1%, Battery: 10.77, Location: (232, 120), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 59.77.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is still travelling, but is low on charge and is seeking a charge station. SOC: 16.08%. Current charge: 10.77 kWh.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 40.00, SOC: 59.7%, Battery: 31.62, Location: (146, 65), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 started travelling at 60 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 20.00, SOC: 79.2%, Battery: 34.05, Location: (199, 40), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 84.59.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel, Odometer: 60.00, SOC: 38.7%, Battery: 18.19, Location: (240, 170), Destination: E)
+2023-05-22 03:36:40 PM INFO Total distance: 115.88, Distance covered in timestep: 20.0, New distance goal: 77.47.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 23 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 38.70%. Battery: 18.19 kwh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 62.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 started travelling at 61 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 20.00, SOC: 77.7%, Battery: 42.75, Location: (265, 52), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 19.999999999999996, New distance goal: 76.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 40.00, SOC: 61.3%, Battery: 33.09, Location: (218, 37), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 65.38.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 40.00, SOC: 77.9%, Battery: 42.84, Location: (266, 71), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 57.22.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 17 is out of charge and can no longer travel. State: Battery_dead. Current charge: 10.77176399109976 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 started travelling at 61 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 20.00, SOC: 85.2%, Battery: 55.38, Location: (251, 115), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 79.06.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel, Odometer: 60.00, SOC: 39.5%, Battery: 20.94, Location: (130, 77), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 57.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 21 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 39.50%. Battery: 20.94 kwh.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 40.00, SOC: 58.4%, Battery: 25.10, Location: (218, 37), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 65.38.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is travelling. State: Travel_low, Odometer: 80.00, SOC: 18.3%, Battery: 8.59, Location: (255, 182), Destination: E)
+2023-05-22 03:36:40 PM INFO Total distance: 115.88, Distance covered in timestep: 20.0, New distance goal: 58.26.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is still travelling, but is low on charge and is seeking a charge station. SOC: 18.27%. Current charge: 8.59 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 63.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 40.00, SOC: 55.4%, Battery: 30.49, Location: (266, 71), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.0, New distance goal: 57.22.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel, Odometer: 60.00, SOC: 41.9%, Battery: 22.63, Location: (237, 35), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 46.17.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 15 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 41.91%. Battery: 22.63 kwh.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 60.00, SOC: 66.8%, Battery: 36.76, Location: (268, 90), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 38.21.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 started travelling at 62 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 20.00, SOC: 0.0%, Battery: 0.00, Location: (116, 88), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 18 has travelled: 20.0 km and is now running out of power. State: Travel_low. SOC: 0.00%. Battery: 0.00 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 started travelling at 62 and is in state: Travel
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 20.00, SOC: 92.0%, Battery: 63.49, Location: (163, 54), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 98.23.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 40.00, SOC: 70.4%, Battery: 45.76, Location: (232, 121), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 59.14.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is travelling. State: Travel_low, Odometer: 80.00, SOC: 19.3%, Battery: 10.25, Location: (114, 89), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 37.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is still travelling, but is low on charge and is seeking a charge station. SOC: 19.34%. Current charge: 10.25 kWh.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel, Odometer: 60.00, SOC: 37.5%, Battery: 16.15, Location: (237, 35), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 46.17.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 22 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 37.55%. Battery: 16.15 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 23 is out of charge and can no longer travel. State: Battery_dead. Current charge: 8.58603901299698 kWh.
+2023-05-22 03:36:40 PM INFO EV 18 has arrived at Charge Station CS_B-C_2.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 has joined the queue CS_B-C_2. Current CS occupancy: 1
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 64.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is in queue at CS CS_B-C_2. EV state: In_queue.
+2023-05-22 03:36:40 PM INFO Finished processing state In_queue exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 dequeued at CS_B-C_2 at cp_1 and is in state: Charge. Charging started
+2023-05-22 03:36:40 PM INFO EV 18 has been assigned to cp_1 at CS_B-C_2. State: Charge. Charge rate: 22 kW.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel, Odometer: 60.00, SOC: 33.2%, Battery: 18.24, Location: (268, 90), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 38.21.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 14 has travelled: 60.0 km and is now running out of power. State: Travel_low. SOC: 33.17%. Battery: 18.24 kwh.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel_low, Odometer: 80.00, SOC: 22.5%, Battery: 12.18, Location: (256, 33), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 27.07.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is still travelling, but is low on charge and is seeking a charge station. SOC: 22.55%. Current charge: 12.18 kWh.
+2023-05-22 03:36:40 PM INFO EV 16 is travelling. State: Travel, Odometer: 80.00, SOC: 55.8%, Battery: 30.68, Location: (270, 109), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 19.10.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 40.00, SOC: 84.0%, Battery: 57.97, Location: (146, 65), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.01.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 60.00, SOC: 55.6%, Battery: 36.14, Location: (213, 127), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 39.22.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 21 is out of charge and can no longer travel. State: Battery_dead. Current charge: 10.249564053904324 kWh.
+2023-05-22 03:36:40 PM INFO EV 22 is travelling. State: Travel_low, Odometer: 80.00, SOC: 16.7%, Battery: 7.19, Location: (256, 33), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 27.07.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is still travelling, but is low on charge and is seeking a charge station. SOC: 16.73%. Current charge: 7.19 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 at CS CS_B-C_2 at cp_1 is in state: Charge. SOC: 0.00%, Battery: 0.00 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 16 has completed its journey to Location F. State: Idle. This EV has travelled: 80.0 miles. SOC: 55.77%, Battery: 30.68 kWh. Range anxiety: 0.56.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): F
+2023-05-22 03:36:40 PM INFO EV 16 has been removed from grid on arrival at F. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 65.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 is travelling. State: Travel_low, Odometer: 80.00, SOC: 10.9%, Battery: 5.99, Location: (270, 109), Destination: F)
+2023-05-22 03:36:40 PM INFO Total distance: 76.24, Distance covered in timestep: 20.000000000000004, New distance goal: 19.10.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 is still travelling, but is low on charge and is seeking a charge station. SOC: 10.89%. Current charge: 5.99 kWh.
+2023-05-22 03:36:40 PM INFO EV 15 is travelling. State: Travel_low, Odometer: 100.00, SOC: 3.2%, Battery: 1.72, Location: (276, 33), Destination: A)
+2023-05-22 03:36:40 PM INFO Total distance: 84.59, Distance covered in timestep: 20.0, New distance goal: 8.00.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 is still travelling, but is low on charge and is seeking a charge station. SOC: 3.18%. Current charge: 1.72 kWh.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 60.00, SOC: 76.0%, Battery: 52.46, Location: (130, 77), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 57.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 is travelling. State: Travel, Odometer: 80.00, SOC: 40.8%, Battery: 26.52, Location: (194, 134), Destination: D)
+2023-05-22 03:36:40 PM INFO Total distance: 79.06, Distance covered in timestep: 20.0, New distance goal: 19.31.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 20 has travelled: 80.0 km and is now running out of power. State: Travel_low. SOC: 40.79%. Battery: 26.52 kwh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Battery_dead enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 22 is out of charge and can no longer travel. State: Battery_dead. Current charge: 7.19486417582392 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 at CS CS_B-C_2 at cp_1 is in state: Charge. SOC: 37.29%, Battery: 22.00 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 14 narrowly completed its journey to Location F. State: Idle. This EV has travelled: 80.0 miles. SOC: 10.89%, Battery: 5.99 kWh. Range anxiety: 0.57.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): F
+2023-05-22 03:36:40 PM INFO EV 14 has been removed from grid on arrival at F. Current state: Idle
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 15 narrowly completed its journey to Location A. State: Idle. This EV has travelled: 100.0 miles. SOC: 3.18%, Battery: 1.72 kWh. Range anxiety: 0.49.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): A
+2023-05-22 03:36:40 PM INFO EV 15 has been removed from grid on arrival at A. Current state: Idle
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 20 narrowly completed its journey to Location D. State: Idle. This EV has travelled: 80.0 miles. SOC: 40.79%, Battery: 26.52 kWh. Range anxiety: 0.58.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): D
+2023-05-22 03:36:40 PM INFO EV 20 has been removed from grid on arrival at D. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 66.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 80.00, SOC: 68.0%, Battery: 46.95, Location: (114, 89), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 37.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 at CS CS_B-C_2 at cp_1 is in state: Charge. SOC: 74.58%, Battery: 44.00 kWh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 67.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 19 is travelling. State: Travel, Odometer: 100.00, SOC: 60.1%, Battery: 41.44, Location: (98, 101), Destination: C)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 19.999999999999996, New distance goal: 17.80.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Charge exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 has finished charging. EV State: Travel. SOC: 100.0%, Current charge: 59.00 kWh.
+2023-05-22 03:36:40 PM INFO EV 18 at CS CS_B-C_2 at cp_1 has finished charging. EV departed.
+2023-05-22 03:36:40 PM INFO CP is now free to use.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 19 has completed its journey to Location C. State: Idle. This EV has travelled: 100.0 miles. SOC: 60.05%, Battery: 41.44 kWh. Range anxiety: 0.52.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): C
+2023-05-22 03:36:40 PM INFO EV 19 has been removed from grid on arrival at C. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 68.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 40.00, SOC: 80.0%, Battery: 47.17, Location: (132, 76), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 78.24.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 69.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 60.00, SOC: 59.9%, Battery: 35.35, Location: (148, 64), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 58.25.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 70.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel, Odometer: 80.00, SOC: 39.9%, Battery: 23.52, Location: (164, 53), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.0, New distance goal: 38.28.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel enter callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV: 18 has travelled: 80.0 km and is now running out of power. State: Travel_low. SOC: 39.87%. Battery: 23.52 kwh.
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 71.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 18 is travelling. State: Travel_low, Odometer: 100.00, SOC: 19.8%, Battery: 11.70, Location: (180, 42), Destination: B)
+2023-05-22 03:36:40 PM INFO Total distance: 98.23, Distance covered in timestep: 20.000000000000004, New distance goal: 18.87.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 is still travelling, but is low on charge and is seeking a charge station. SOC: 19.83%. Current charge: 11.70 kWh.
+2023-05-22 03:36:40 PM INFO Finished processing state Travel_low exit callbacks.
+2023-05-22 03:36:40 PM INFO Finished processing state Idle enter callbacks.
+2023-05-22 03:36:40 PM INFO EV 18 narrowly completed its journey to Location B. State: Idle. This EV has travelled: 100.0 miles. SOC: 19.83%, Battery: 11.70 kWh. Range anxiety: 0.56.
+2023-05-22 03:36:40 PM INFO EV Location (LSM): B
+2023-05-22 03:36:40 PM INFO EV 18 has been removed from grid on arrival at B. Current state: Idle
+2023-05-22 03:36:40 PM INFO 
+Current timestep (tick): 72.
+
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_A-B_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_B-C_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_2 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_C-D_3 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-E_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-B_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_E-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_D-F_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_1 is empty.
+2023-05-22 03:36:40 PM INFO The queue at ChargeStation CS_F-A_2 is empty.
+2023-05-22 03:36:40 PM INFO EV 14 Battery level at end of day: 5.9878612492678265
+2023-05-22 03:36:40 PM INFO EV 15 Battery level at end of day: 1.7190832976020118
+2023-05-22 03:36:40 PM INFO EV 16 Battery level at end of day: 30.675695689183215
+2023-05-22 03:36:40 PM INFO EV 17 Battery level at end of day: 10.77176399109976
+2023-05-22 03:36:40 PM INFO EV 18 Battery level at end of day: 11.698444181197345
+2023-05-22 03:36:40 PM INFO EV 19 Battery level at end of day: 41.43614330746258
+2023-05-22 03:36:40 PM INFO EV 20 Battery level at end of day: 26.515276711596016
+2023-05-22 03:36:40 PM INFO EV 21 Battery level at end of day: 10.249564053904324
+2023-05-22 03:36:40 PM INFO EV 22 Battery level at end of day: 7.19486417582392
+2023-05-22 03:36:40 PM INFO EV 23 Battery level at end of day: 8.58603901299698
+2023-05-22 03:36:40 PM INFO 
+Current day: 3.
+2023-05-22 03:36:40 PM INFO Model run finished.
